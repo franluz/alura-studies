@@ -1,12 +1,14 @@
 import React from 'react';
-import Formulario from '../components/formulario';
-import Lista from '../components/lista';
-import './style.scss'
+import Formulario from '../components/Formulario';
+import Lista from '../components/Lista';
+import Cronometro from '../components/Crenometro';
+import style from './App.module.scss'
 function App() {
   return (
-    <div className="AppStyle">
-     <Formulario/>
-     <Lista/>
+    <div className={style.AppStyle}>
+      <Formulario />
+      <Lista />
+      <Cronometro/>
     </div>
   );
 }
